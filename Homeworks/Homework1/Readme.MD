@@ -18,8 +18,8 @@
 ```c++
 class Time
 {
-  int hours;
-  int minutes;
+  size_t hours;
+  size_t minutes;
 };
 ```
 
@@ -91,8 +91,8 @@ struct Appointment
 ```c++
 class Schedule
 {
-  int size;
-  int capacity;
+  size_t size;
+  size_t capacity;
   Appointment* container;
 };
 ```
