@@ -80,7 +80,7 @@ struct Appointment
 
 Да се дефинират:
 * ```Appointment()``` 
-* ```Appointment(Time, string)```
+* ```Appointment(Time&, string&)```
 
 Да се предефинира:
 * ```operator<<``` - извежда срещата във формат: ```time - person```
