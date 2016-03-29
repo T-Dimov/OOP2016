@@ -53,7 +53,7 @@ const double Complex::operator[](size_t i) const
 	return c[i];
 }
 
-double Complex::operator[](size_t i)
+double& Complex::operator[](size_t i)
 {
 	return c[i];
 }
