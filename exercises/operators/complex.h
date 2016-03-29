@@ -16,7 +16,7 @@ public:
 	friend std::ostream& operator<<(std::ostream&, const Complex&);
 	friend std::istream& operator>>(std::istream&, Complex&);
 	const double operator[](size_t) const;
-	double operator[](size_t);
+	double& operator[](size_t);
 	double neshto;
 	size_t getCount() const;
 private:
