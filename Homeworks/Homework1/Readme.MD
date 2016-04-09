@@ -29,7 +29,7 @@ class Time
 
 Предефинирайте следните оператори:
 * ```operator+``` - за int + Тime, Тime + int и Тime + Тime (първите 2 добавят целочислено число към минутите, третият събира часовете и минутите на два часовника);
-*  ```operator-``` - за Тime - Тime. Връща int;
+*  ```operator-``` - Разликата между 2 часа в минути.
 * ```operator++``` - префиксен и постфиксен (добавят по една минута);
 * ```operator+=``` - приемащ int и Time;
 * ```operator==``` ;
@@ -78,7 +78,7 @@ struct Appointment
 
 Да се дефинират:
 * ```Appointment()``` 
-* ```Appointment(Time&, string&)```
+* ```Appointment(const Time&, const string&)```
 
 Да се предефинира:
 * ```operator<<``` - извежда срещата във формат: ```time - person```
