@@ -12,7 +12,7 @@ Schedule::Schedule(const Schedule& o) :container(nullptr)
 	copy(o);
 }
 
-Schedule & Schedule::operator=(const Schedule& o)
+Schedule& Schedule::operator=(const Schedule& o)
 {
 	if (this != &o)
 	{
