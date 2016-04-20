@@ -8,6 +8,9 @@
 Срок за предаване: 30.04.2016
 
 
+
+Разгледайте: https://github.com/T-Dimov/OOP2016/blob/master/exercises/linkedList/linkedList.h
+
 ### Сортиран Списък
 
 Дефинирайте шаблонен клас `SortedList`, който представлява списък от елементи,
