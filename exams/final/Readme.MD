@@ -30,6 +30,7 @@ Defender
 operator<< за производните класове трябва да изведе
 
 "Name:" name
+
 "Skill:" getSkill()
 
 
