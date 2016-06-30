@@ -15,17 +15,17 @@
 Player
 
 С данни:
-name - низ с произволна дължина
-offensiveSkill, defensiveSkill - положителни числа
+- name - низ с произволна дължина
+- offensiveSkill, defensiveSkill - положителни числа
 
 Производни Класовe
 Attacker
-getSKill - връща (2*offensiveSkill + defensiveSkill)/3
-operator<< 
+- getSKill - връща (2*offensiveSkill + defensiveSkill)/3
+- operator<< 
 
 Defender
-getSKill - връща 3*defensiveSKill
-оператор<<
+- getSKill - връща 3*defensiveSKill
+- оператор<<
 
 operator<< за производните класове трябва да изведе
 
@@ -33,14 +33,13 @@ operator<< за производните класове трябва да изв
 "Skill:" getSkill()
 
 
-Клас 
-Team
+Клас  Team
 Свързан списък от играчи
 
-функции:
 Допълнителни данни
 int draws, wins, losses
 
+функции:
 getTotalSkill(int n) - събира getSkill() на n-те най-добри играчи
 addPlayer - Няма значение къде в списъка ще се постави (бонус ако поставянето помага да се избегнат някои проверки (например за getTotalSkill))
 removePlayer - по-зададено име, маха поне един играч с това име.
